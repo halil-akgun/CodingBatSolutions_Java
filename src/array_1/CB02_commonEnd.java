@@ -8,7 +8,7 @@ commonEnd([1, 2, 3], [7, 3]) → true
 commonEnd([1, 2, 3], [7, 3, 2]) → false
 commonEnd([1, 2, 3], [1, 3]) → true
  */
-public class CB01_commonEnd {
+public class CB02_commonEnd {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3};
         int[] brr = {2, 3, 5};
