@@ -7,7 +7,7 @@ maxTriple([1, 2, 3]) → 3
 maxTriple([1, 5, 3]) → 5
 maxTriple([5, 2, 3]) → 5
  */
-public class CB17_maxTriple {
+public class CB18_maxTriple {
     public static void main(String[] args) {
         int[] a = {1};
         System.out.println(maxTriple(a));
