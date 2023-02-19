@@ -10,7 +10,7 @@ caughtSpeeding(60, false) → 0
 caughtSpeeding(65, false) → 1
 caughtSpeeding(65, true) → 0
  */
-public class CB01_caughtSpeeding {
+public class CB02_caughtSpeeding {
     public static void main(String[] args) {
         System.out.println(caughtSpeeding(65, false));
     }
