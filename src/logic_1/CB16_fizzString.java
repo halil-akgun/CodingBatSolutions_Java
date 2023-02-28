@@ -17,7 +17,7 @@ public class CB16_fizzString {
         String temp = "";
         if (str.length() > 0) {
             if (str.substring(0, 1).equalsIgnoreCase("f")) temp = "Fizz";
-            if (str.substring(str.length() - 1).equalsIgnoreCase("b")) return temp += "Buzz";
+            if (str.substring(str.length() - 1).equalsIgnoreCase("b")) return temp + "Buzz";
         }
         if (temp.length() > 0) return temp;
         return str;
