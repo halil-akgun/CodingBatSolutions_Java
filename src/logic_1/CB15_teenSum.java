@@ -8,7 +8,7 @@ teenSum(3, 4) → 7
 teenSum(10, 13) → 19
 teenSum(13, 2) → 19
  */
-public class CB1515_teenSum {
+public class CB15_teenSum {
     public static void main(String[] args) {
         System.out.println(teenSum(10, 13));
     }
