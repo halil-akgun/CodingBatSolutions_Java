@@ -16,7 +16,6 @@ public class CB31_makeBricks {
 
     public static boolean makeBricks(int small, int big, int goal) {
         if (goal > big * 5 + small) return false;
-        if (goal % 5 > small) return false;
-        return true;
+        return goal % 5 <= small;
     }
 }
