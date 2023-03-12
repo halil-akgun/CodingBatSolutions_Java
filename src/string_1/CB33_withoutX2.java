@@ -9,7 +9,7 @@ withoutX2("xHi") → "Hi"
 withoutX2("Hxi") → "Hi"
 withoutX2("Hi") → "Hi"
  */
-public class CB32_withoutX2 {
+public class CB33_withoutX2 {
     public static void main(String[] args) {
         System.out.println(withoutX2("xyzZX"));
     }

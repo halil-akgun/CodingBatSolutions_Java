@@ -1,4 +1,4 @@
-package logic_1;
+package logic_2;
 
 /*
 We want to make a row of bricks that is goal inches long. We have a number of small bricks (1 inch each) and big bricks
@@ -9,7 +9,7 @@ makeBricks(3, 1, 8) → true
 makeBricks(3, 1, 9) → false
 makeBricks(3, 2, 10) → true
  */
-public class CB31_makeBricks {
+public class CB01_makeBricks {
     public static void main(String[] args) {
         System.out.println(makeBricks(3, 1, 8));
     }

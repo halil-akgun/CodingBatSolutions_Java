@@ -9,7 +9,7 @@ minCat("Hello", "Hi") → "loHi"
 minCat("Hello", "java") → "ellojava"
 minCat("java", "Hello") → "javaello"
  */
-public class CB31_minCat {
+public class CB32_minCat {
     public static void main(String[] args) {
         System.out.println(minCat("Hello", "Hi"));
     }
