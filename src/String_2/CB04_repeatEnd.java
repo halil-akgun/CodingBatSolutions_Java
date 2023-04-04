@@ -12,11 +12,11 @@ public class CB04_repeatEnd {
         System.out.println(repeatEnd("Hello", 2));
     }
     public static String repeatEnd(String str, int n) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
 //        return result.append(str.substring(n - 1).repeat(Math.max(0, n))).toString();
         for (int i = 0; i < n; i++) {
-            result += (str.substring(n - 1));
+            result.append(str.substring(str.length() - n));
         }
-        return result;
+        return result.toString();
     }
 }
