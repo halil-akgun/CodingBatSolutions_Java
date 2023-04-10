@@ -14,7 +14,13 @@ public class CB12_xyzMiddle {
     }
 
     public static boolean xyzMiddle(String str) {
-        int indexOfXYZ = str.toLowerCase().indexOf("xyz");
-        return Math.abs(indexOfXYZ - (str.length() - (indexOfXYZ + 3))) < 2;
+        boolean isEqualXYZ;
+        boolean isCenter;
+        for (int i = 2; i < str.length(); i++) {
+            isEqualXYZ = str.substring(i - 2, i + 1).equalsIgnoreCase("xyz");
+            isCenter = Math.abs((i - 2) - (str.length() - (i + 1))) < 2;
+            if (isEqualXYZ && isCenter) return true;
+        }
+        return false;
     }
 }
