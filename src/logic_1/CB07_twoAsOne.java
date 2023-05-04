@@ -13,8 +13,10 @@ public class CB07_twoAsOne {
     }
 
     public static boolean twoAsOne(int a, int b, int c) {
-        if (a + b == c) return true;
-        if (a + c == b) return true;
-        return c + b == a;
+//        if (a + b == c) return true;
+//        if (a + c == b) return true;
+//        return c + b == a;
+
+        return a + b == c || a + c == b || c + b == a;
     }
 }
