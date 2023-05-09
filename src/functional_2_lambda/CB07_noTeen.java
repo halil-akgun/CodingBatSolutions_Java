@@ -1,5 +1,6 @@
 package functional_2_lambda;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*
@@ -11,7 +12,11 @@ noTeen([15]) → []
  */
 public class CB07_noTeen {
     public static void main(String[] args) {
-        List<Integer> nums = List.of(1, 2, 3);
+        List<Integer> nums = new ArrayList<>();
+        nums.add(12);
+        nums.add(13);
+        nums.add(19);
+        nums.add(20);
         System.out.println(noTeen(nums));
     }
 
