@@ -13,8 +13,6 @@ public class CB18_lessBy10 {
     }
 
     public static boolean lessBy10(int a, int b, int c) {
-        if (Math.abs(a - b) > 9) return true;
-        if (Math.abs(a - c) > 9) return true;
-        return Math.abs(b - c) > 9;
+        return Math.abs(b - c) > 9 || Math.abs(a - b) > 9 || Math.abs(a - c) > 9;
     }
 }
