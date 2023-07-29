@@ -21,6 +21,5 @@ public class CB09_countHi2 {
             else return countHi2(str.substring(2));
 
         return countHi2(str.substring(1));
-
     }
 }
