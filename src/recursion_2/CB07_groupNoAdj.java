@@ -9,7 +9,7 @@ groupNoAdj(0, [2, 5, 10, 4], 12) → true
 groupNoAdj(0, [2, 5, 10, 4], 14) → false
 groupNoAdj(0, [2, 5, 10, 4], 7) → false
  */
-public class CB08_groupNoAdj {
+public class CB07_groupNoAdj {
     public static void main(String[] args) {
         System.out.println(groupNoAdj(0, new int[]{2, 5, 10, 4}, 14));
     }

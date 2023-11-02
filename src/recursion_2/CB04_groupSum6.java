@@ -9,7 +9,7 @@ groupSum6(0, [5, 6, 2], 8) → true
 groupSum6(0, [5, 6, 2], 9) → false
 groupSum6(0, [5, 6, 2], 7) → false
  */
-public class CB05_groupSum6 {
+public class CB04_groupSum6 {
     public static void main(String[] args) {
         System.out.println(groupSum6(0, new int[]{5, 6, 2}, 8));
         System.out.println(groupSum6(0, new int[]{5, 6, 2}, 9));

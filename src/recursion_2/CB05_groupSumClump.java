@@ -12,7 +12,7 @@ groupSumClump(0, [2, 4, 8], 10) → true
 groupSumClump(0, [1, 2, 4, 8, 1], 14) → true
 groupSumClump(0, [2, 4, 4, 8], 14) → false
  */
-public class CB06_groupSumClump {
+public class CB05_groupSumClump {
     public static void main(String[] args) {
         System.out.println(groupSumClump(0, new int[]{2, 4, 4, 8}, 14));
     }

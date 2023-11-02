@@ -10,7 +10,7 @@ split53([1, 1]) → true
 split53([1, 1, 1]) → false
 split53([2, 4, 2]) → true
  */
-public class CB07_split53 {
+public class CB06_split53 {
     public static void main(String[] args) {
         System.out.println(split53(new int[]{2, 4, 2}));
     }
